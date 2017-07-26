@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>NDJSON Stream Demo</title>
+</head>
+<body>
+  <script src="https://unpkg.com/vue"></script>
+  <h1> NDJSON demo </h1>
+    <div id="app">
+    <ul>  
+      <li v-for="todo in todos">
+        {{ todo }}
+      </li>
+    </ul>
+  </div>
+
+  <script src="https://unpkg.com/can-ndjson-stream@0.1.6/dist/global/can-ndjson-stream.js"></script>
+  <script src="./client.js"></script>
+
+</body>
+</html>
+
+
+
